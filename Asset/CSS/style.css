@@ -1,0 +1,117 @@
+.bg_1{
+    width: 100%;
+    height: 695px;
+    filter: brightness(60%);
+    object-fit: cover;
+}
+.logo{
+    width:max-content;
+    object-fit: cover;
+}
+.menu{
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 3px 6px;
+    transition: 0.5s;
+}
+.menu:hover{
+    scale: 1.2;
+    background-color: rgba(152, 152, 152, 0.196);
+    border-radius: 5px;
+}
+.icons_menu{
+    color: white;
+    padding: 7px;
+    background-color:#D6644A;
+    border-radius: 5px;
+}
+
+.con_tit{
+    color: #D6644A;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+.con_fas{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    width: 515px;
+    line-height: 50px;
+}
+.con_line{
+    height: 4px;
+    width: 80px;
+    border-radius: 1px;
+    background-color: white;
+}
+.con_para{
+    color: rgb(220, 219, 219);
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.con_btn1{
+    padding: 10px 23px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #D6644A;
+    transition: 0.8s;
+}
+.con_btn1:hover{
+    background-color: #D6644A;
+    scale: 1.1;
+    border: none;
+}
+
+.con_btn2{
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background: transparent;
+    transition: 0.8s;
+}
+.con_btn2:hover{
+    /* background-color: white;
+    color: black; */
+    scale: 1.1;
+    /* border: 1px solid black; */
+}
+
+/*  */
+.img_div{
+    position: absolute;
+    text-align: center;
+    top: 84.4%;
+    right: 2%;
+}
+.sw_img1{
+    width: 83px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: 0.6s;
+}
+.active, .sw_img1:hover{
+    scale: 1.11;
+    border-color: #D6644A;
+}
+
+.img_con{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*  */

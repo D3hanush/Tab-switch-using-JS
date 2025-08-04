@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Asset/CSS/style.css">
+
+</head>
+<body>
+
+    <div style="position: relative; height: 729px;">
+        <img src="./Asset/Image/bg_one.jpg" id="back_img" class="bg_1">
+
+
+    <div style="position: absolute; top: 0%; width: 100%;">
+    <!-- top -->
+     <div class="container-fluid">
+        <div class="row justify-content-center" style=" background-color: rgba(110, 100, 100, 0.334); height: 40px;">
+            <div class="col-9" style="padding: 6px 0px 0px 0px; ">
+                <div class="row">
+                    <div class="col-4" style="height: fit-content;">
+                        <p class="top_1" style="color: rgb(226, 226, 226);">
+                            Welcome to our online store !
+                        </p>
+                    </div>
+                    <div class="col-4" style="display: flex; justify-content: center; height: fit-content;">
+                        <div style="color: #D6644A; display: flex; gap: 10px;">
+                            <i class="fa-solid fa-envelope" style="margin-top: 5px;"></i>
+                            <p style="color: rgb(226, 226, 226);">online support@smile.com</p>
+                        </div>
+                    </div>
+                    <div class="col-4" style="display: flex; justify-content: end; height: fit-content;">
+                        <div style="display: flex; color: #D6644A;">
+                        <i class="fa-solid fa-phone-volume me-2 mt-1"></i>
+                        <p>Hotline : </p> &nbsp;<p style="color: rgb(226, 226, 226);">80009 80009</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- top -->
+     
+    <!-- nav -->
+    <nav class="container-fluid mt-5">
+        <div class="row justify-content-center">
+            <div class="col-9">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="./Asset/Image/logo-lite.png" class="logo">
+                    </div>
+                    <div class="col-9" style="display: flex; justify-content: end;">
+                            <ul style="list-style: none;display: flex; gap: 20px;">
+                                <li class="menu">HOME</li>
+                                <li class="menu">WOMEN</li>
+                                <li class="menu">SHOP</li>
+                                <li class="menu">BLOG</li>
+                                <li class="menu">GET INSPIRED</li>
+                                <li class="menu">TECHNOLOGY</li>
+                                <li class="menu">PAGES</li>
+                                <li class="ms-2">
+                                    <i class="fa-solid fa-cart-shopping icons_menu"></i>
+                                    <i class="fa-solid fa-magnifying-glass icons_menu ms-1"></i>     
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav -->
+
+    <!-- content -->
+     <div class="container-fluid" style="margin-top: 90px;">
+        <div class="row justify-content-center">
+            <div class="col-9">
+                <span class="con_tit" id="book_tit">SMILE LOOKBOOK 2104</span><br>
+                <p class="con_fas" id="book_fas">MODERN & CLASSIC OUTLET <br> MENSWARE</p>
+                <div class="con_line"></div>
+                <p class="con_para" id="book_para">
+                    Clean & Elegant design with a modern style. This template includes <br>
+                    all you need for a fashion & accessories store             
+                </p>
+                <div class="row mt-4">
+                    <div class="col-2">
+                        <button class="con_btn1">GET THE LOOK!</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="con_btn2">FIND SOMETHING YOU NEED</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- content -->
+    </div>
+
+    <!-- switch -->
+     <div class="img_div">
+        <div>
+            <!-- <h1 class="img_con">FASHION <b style="color: #D6644A;">!</b></h1> -->
+        </div>
+        <div style="display: flex; gap: 20px; margin-top: 30px;">
+            <img src="./Asset/Image/bg_one.jpg" onclick="change(event)" class="sw_img1 active">
+            <img src="./Asset/Image/bg_two.jpg" onclick="change(event)" class="sw_img1">
+            <img src="./Asset/Image/bg_three.jpg" onclick="change(event)" class="sw_img1">
+            <img src="./Asset/Image/bg_four.jpg" onclick="change(event)"  class="sw_img1">
+            <img src="./Asset/Image/bg_five.jpg" onclick="change(event)" class="sw_img1">
+            <img src="./Asset/Image/bg_six.jpg" onclick="change(event)"  class="sw_img1">
+        </div>
+     </div>
+    <!-- switch -->
+    </div>
+    
+
+    
+
+
+    <script src="./Asset/JS/script.js"></script>
+</body>
+</html>
